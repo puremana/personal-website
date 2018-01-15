@@ -8,7 +8,29 @@ import {
 class NavBar extends Component {
     constructor(props) {
         super(props);
-        this.state = {homeLink: 'is-active', projectLink: '', contactLink: ''};
+        this.state = {homeLink: '', projectLink: '', contactLink: ''};
+        this.updateActive = function(aPage) {
+            if (aPage == "home") {
+                this.setState({homeLink: 'is-active', projectLink: '', contactLink: ''});
+            }
+            else if (aPage == "projects") {
+                this.setState({homeLink: '', projectLink: 'is-active', contactLink: ''});
+            }
+            else if (aPage == "contact") {
+                this.setState({homeLink: '', projectLink: '', contactLink: 'is-active'});
+            }
+            else {
+                this.setState({homeLink: '', projectLink: '', contactLink: ''});
+            }
+        }
+    }
+
+    componentWillReceiveProps() {
+        this.updateActive(this.props.page);
+    }
+
+    componentDidMount() {
+        this.updateActive(this.props.page);
     }
 
   render() {
@@ -16,22 +38,22 @@ class NavBar extends Component {
         <div class="tabs is-toggle is-fullwidth">
             <ul>
                 <li class={this.state.homeLink}>
-                    <a>
+                    <Link to="/">
                         <span class="icon is-small"><i class="fa fa-home"></i></span>
                         <span>Home</span>
-                    </a>
+                    </Link>
                 </li>
                 <li class={this.state.projectLink}>
-                    <a>
+                    <Link to="/projects">
                         <span class="icon is-small"><i class="fa fa-laptop"></i></span>
                         <span>Projects</span>
-                    </a>
+                    </Link>
                 </li>
                 <li class={this.state.contactLink}>
-                    <a>
+                <Link to="/contact">
                         <span class="icon is-small"><i class="fa fa-phone"></i></span>
                         <span>Contact</span>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>

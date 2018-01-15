@@ -18,8 +18,8 @@ class Home extends Component {
   render() {
     return (
         <div class="home-page">
-            <NavBar />
-            
+            <NavBar page="home"/>
+
         </div>
     );
   }
