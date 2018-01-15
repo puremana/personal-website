@@ -1,2 +1,74 @@
+/* @keyframes slideleft {
+  from { background-position: 0%; }
+  to { background-position: 90000%; }
+}
 
+@-webkit-keyframes slideleft {
+  from { background-position: 0%; }
+  to { background-position: 90000%; }
+} */
+.header {
+  /* background-image: url("./images/01.jpg");
+  background-repeat: repeat-x;
+  animation: slideleft 8000s infinite linear;
+  -webkit-animation: slideleft 8000s infinite linear; */
+  text-align: center;
+  max-width: 100%;
+  margin: -24px 0 0 0;
+  height: 50vh;
+}
+.header {
+  background: rgb(0, 255, 255);
+  background: -webkit-linear-gradient(45deg, rgb(0, 255, 255) 0%, rgba(0, 179, 255, 1) 33%, rgb(0, 255, 255) 66%, rgba(0, 179, 255, 1) 100%);
+  background: -moz-linear-gradient(45deg, rgb(0, 255, 255) 0%, rgba(0, 179, 255, 1) 33%, rgb(0, 255, 255) 66%, rgba(0, 179, 255, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgb(0, 255, 255) 0%, rgba(0, 179, 255, 1) 33%, rgb(0, 255, 255) 66%, rgba(0, 179, 255, 1) 100%);
+  background: -o-linear-gradient(45deg, rgb(0, 255, 255) 0%, rgba(0, 179, 255, 1) 33%, rgb(0, 255, 255) 66%, rgba(0, 179, 255, 1) 100%);
+  background: linear-gradient(45deg, rgb(0, 255, 255) 0%, rgba(0, 179, 255, 1) 33%, rgb(0, 255, 255) 66%, rgba(0, 179, 255, 1) 100%);
+  background-size: 400% 400%;
+  -webkit-animation: scollBG 5s linear infinite;
+  -moz-animation: scollBG 5s linear infinite;
+  animation: scollBG 5s linear infinite;
+}
 
+@-webkit-keyframes scollBG {
+  0% {
+      background-position: 100% 0%
+  }
+  100% {
+      background-position: 15% 100%
+  }
+}
+
+@-moz-keyframes scollBG {
+  0% {
+      background-position: 100% 0%
+  }
+  100% {
+      background-position: 15% 100%
+  }
+}
+
+@keyframes scollBG {
+  0% {
+      background-position: 100% 0%
+  }
+  100% {
+      background-position: 15% 100%
+  }
+}
+.header h2 {
+  color: white;
+  font-size: 3em;
+  padding-top: 15vh;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.for-hire-button {
+  margin-top: 2vh;
+}
+.content-container {
+  width: 100vw;
+  height: 40vw;
+}
+.cyan {
+  background-color: #72cec6;
+}
