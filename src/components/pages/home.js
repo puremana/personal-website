@@ -25,13 +25,19 @@ class Home extends Component {
                     For Hire
                 </a>
             </div>
-            <div class="content-container cyan">
+            <div class="content-container">
                 <div class="left-container">
-                    <h3>About</h3>
-                    <p></p>
+                    <div class="header-container">
+                        <h3>About</h3>
+                        <hr class="header-hr" />
+                    </div>
+                    <p>I'm Jeremy. A computer science student intent on developing the sweetest <Link to="/projects">projects</Link> I can. 
+                    Currently studying at Waikato with one semester left. Interesting in developing webapps and fullstack development.</p>
+                    <p>When I'm not programming you can find me in the gym, going for a run or binge watching the latest TV Shows.</p>
+                    <p>If you are interested in hiring me, or just want to tell me about a movie I should watch, feel free to <Link to="/contact">drop me a line</Link>.</p>
                 </div>
                 <div class="right-container">
-
+                aasd
                 </div>
                 
             </div>
