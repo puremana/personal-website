@@ -35,7 +35,7 @@ class NavBar extends Component {
 
   render() {
     return (
-        <div class="tabs is-toggle is-fullwidth">
+        <div class="tabs is-toggle is-fullwidth fixed">
             <ul>
                 <li class={this.state.homeLink}>
                     <Link to="/">
