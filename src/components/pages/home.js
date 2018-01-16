@@ -25,7 +25,7 @@ class Home extends Component {
                     For Hire
                 </a>
             </div>
-            <div class="content-container">
+            <div class="content-container first-color">
                 <div class="left-container">
                     <div class="header-container">
                         <h3>About</h3>
@@ -37,7 +37,7 @@ class Home extends Component {
                     <p>If you are interested in hiring me, or just want to tell me about a movie I should watch, feel free to <Link to="/contact">drop me a line</Link>.</p>
                 </div>
                 <div class="right-container">
-                aasd
+                
                 </div>
                 
             </div>
@@ -45,8 +45,56 @@ class Home extends Component {
                 <h3>Education</h3>
                 <p>My relevant university courses</p>
                 <div class="course-container">
-                    <div class="course">
-                        <a href=""></a>
+                    <div class="level-block">
+                        <h5>300 level</h5>
+                        <div class="course">
+                            <a href="">COMP314 - Software Engineering Project</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP336 – Graphics and Computer Games</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP333 – Web Applications Development</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP316 - Artificial Intelligence Techniques and Applications</a>
+                        </div>
+                    </div>
+                    <div class="level-block">
+                        <h5>200 level</h5>
+                        <div class="course">
+                            <a href="">COMP235 – Logic and Computation</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP233 – Internet Applications</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP204 – Object Orientated Program Design</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP202 – Computer Communications</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP200 – Computer Systems</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP203 – Programming with Data Structures</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP224 – Visual Design for Interactive Media</a>
+                        </div>
+                    </div>
+                    <div class="level-block">
+                        <h5>100 level</h5>
+                        <div class="course">
+                            <a href="">COMP103 – Introduction to Computer Science 1</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP104 – Introduction to Computer Science 2</a>
+                        </div>
+                        <div class="course">
+                            <a href="">COMP126 – Computing Media</a>
+                        </div>
                     </div>
                 </div>
             </div>

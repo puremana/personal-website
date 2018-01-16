@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .fixed { 
   position: fixed !important;
   top: 0;
@@ -5,6 +9,7 @@
   right: 0;
   background-color: white;
   z-index: 10000;
+  height: 5vh;
 }
 .header {
   /* background-image: url("./images/01.jpg");
@@ -65,9 +70,8 @@
   margin-top: 2vh;
 }
 .content-container {
-  padding-top: 1vw;
+  padding: 2vw 0 3.5rem 0;
   width: 100vw;
-  height: 40vw;
   margin: 0 auto 0 auto;
   text-align: center;
 }
@@ -84,7 +88,7 @@
 }
 .header-container hr {
   margin-top: 0.5rem;
-  border: 1px solid rgba(20, 235, 250, 0.473);
+  border: 1px solid rgb(255, 0, 98);
 }
 .left-container {
   text-align: left;
@@ -102,7 +106,32 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.course-container {
+  margin: 0 auto 0 auto;
+  width: 60vw;
+}
+.course {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(34, 34, 34);
+  padding: 2px 10px 2px 10px;
+  margin: 4px 5px 4px 5px;
+}
+.course a:hover {
+  color: rgb(35, 226, 240);
+}
+h5 {
+  font-weight: 600;
+}
 /* Colours */
-.cyan {
-  background-color: #72cec6;
+.first-color {
+  background-color: #241f1f;
+  color: white;
+}
+.first-color a {
+  color: rgb(255, 0, 98);
+}
+.first-color a:hover {
+  color: rgba(255, 0, 98, 0.747);
 }
