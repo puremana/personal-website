@@ -63,11 +63,11 @@ a {
 .header h2 {
   color: white;
   font-size: 3em;
-  padding-top: 15vh;
+  padding-top: 8vw;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 .for-hire-button {
-  margin-top: 2vh;
+  margin-top: 5vh;
 }
 .content-container {
   padding: 2vw 0 3.5rem 0;
@@ -88,7 +88,7 @@ a {
 }
 .header-container hr {
   margin-top: 0.5rem;
-  border: 1px solid rgb(255, 0, 98);
+  border: 1px solid rgb(0, 255, 255);
 }
 .left-container {
   text-align: left;
@@ -129,9 +129,15 @@ h5 {
   background-color: #241f1f;
   color: white;
 }
-.first-color a {
+/* .first-color a {
   color: rgb(255, 0, 98);
 }
 .first-color a:hover {
   color: rgba(255, 0, 98, 0.747);
+} */
+.first-color a {
+  color: rgb(0, 255, 255);
+}
+.first-color a:hover {
+  color: rgba(0, 255, 255, 0.747);
 }
