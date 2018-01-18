@@ -22,7 +22,7 @@ class Home extends Component {
             <div class="header">
                 <h2>Jeremy Shaw Portfolio</h2>
                 <a class="button is-info is-large for-hire-button">
-                    For Hire
+                    Contact
                 </a>
             </div>
             <div class="content-container first-color">
