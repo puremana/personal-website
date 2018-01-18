@@ -193,3 +193,8 @@ h5 {
 .tag {
   margin: 0px 2px 0 2px;
 }
+/* Contact Page */
+.contact-container {
+  width: 60vw;
+  margin: 100px auto 0 auto;
+}

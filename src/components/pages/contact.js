@@ -19,7 +19,44 @@ class Contact extends Component {
     return (
         <div class="contact-page">
             <NavBar page="contact"/>
+            <div class="contact-container">
+            <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Text input" />
+            </div>
+            </div>
 
+            <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
+            </div>
+            </div>
+
+            <div class="field">
+            <label class="label">Subject</label>
+            <div class="control">
+                <div class="select">
+                <select>
+                    <option>Select dropdown</option>
+                    <option>With options</option>
+                </select>
+                </div>
+            </div>
+            </div>
+
+            <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+            </div>
+
+            <div class="control">
+                <button class="button is-link">Send Message</button>
+            </div>
+            </div>
         </div>
     );
   }
