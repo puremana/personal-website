@@ -10,13 +10,13 @@ class NavBar extends Component {
         super(props);
         this.state = {homeLink: '', projectLink: '', contactLink: ''};
         this.updateActive = function(aPage) {
-            if (aPage == "home") {
+            if (aPage === "home") {
                 this.setState({homeLink: 'is-active', projectLink: '', contactLink: ''});
             }
-            else if (aPage == "projects") {
+            else if (aPage === "projects") {
                 this.setState({homeLink: '', projectLink: 'is-active', contactLink: ''});
             }
-            else if (aPage == "contact") {
+            else if (aPage === "contact") {
                 this.setState({homeLink: '', projectLink: '', contactLink: 'is-active'});
             }
             else {

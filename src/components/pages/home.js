@@ -48,52 +48,52 @@ class Home extends Component {
                     <div class="level-block">
                         <h5>300 level</h5>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/papers/COMP314">COMP314 - Software Engineering Project</a>
+                            <a href="https://papers.waikato.ac.nz/papers/COMP314" target="_blank" rel="noreferrer noopener">COMP314 - Software Engineering Project</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP336">COMP336 – Graphics and Computer Games</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP336" target="_blank" rel="noreferrer noopener">COMP336 – Graphics and Computer Games</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/papers/2017/COMP333">COMP333 – Web Applications Development</a>
+                            <a href="https://papers.waikato.ac.nz/papers/2017/COMP333" target="_blank" rel="noreferrer noopener">COMP333 – Web Applications Development</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/papers/COMP316">COMP316 - Artificial Intelligence Techniques and Applications</a>
+                            <a href="https://papers.waikato.ac.nz/papers/COMP316" target="_blank" rel="noreferrer noopener">COMP316 - Artificial Intelligence Techniques and Applications</a>
                         </div>
                     </div>
                     <div class="level-block">
                         <h5>200 level</h5>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP235">COMP235 – Logic and Computation</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP235" target="_blank" rel="noreferrer noopener">COMP235 – Logic and Computation</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP233">COMP233 – Internet Applications</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP233" target="_blank" rel="noreferrer noopener">COMP233 – Internet Applications</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP204">COMP204 – Object Orientated Program Design</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP204" target="_blank" rel="noreferrer noopener">COMP204 – Object Orientated Program Design</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/papers/2017/COMP202">COMP202 – Computer Communications</a>
+                            <a href="https://papers.waikato.ac.nz/papers/2017/COMP202" target="_blank" rel="noreferrer noopener">COMP202 – Computer Communications</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP200">COMP200 – Computer Systems</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP200" target="_blank" rel="noreferrer noopener">COMP200 – Computer Systems</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP203">COMP203 – Programming with Data Structures</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP203" target="_blank" rel="noreferrer noopener">COMP203 – Programming with Data Structures</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP224">COMP224 – Visual Design for Interactive Media</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP224" target="_blank" rel="noreferrer noopener">COMP224 – Visual Design for Interactive Media</a>
                         </div>
                     </div>
                     <div class="level-block">
                         <h5>100 level</h5>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP103">COMP103 – Introduction to Computer Science 1</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP103" target="_blank" rel="noreferrer noopener">COMP103 – Introduction to Computer Science 1</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP104">COMP104 – Introduction to Computer Science 2</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP104" target="_blank" rel="noreferrer noopener">COMP104 – Introduction to Computer Science 2</a>
                         </div>
                         <div class="course">
-                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP126">COMP126 – Computing Media</a>
+                            <a href="https://papers.waikato.ac.nz/2017/COMP/COMP126" target="_blank" rel="noreferrer noopener">COMP126 – Computing Media</a>
                         </div>
                     </div>
                 </div>
