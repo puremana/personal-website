@@ -55,7 +55,8 @@ class Projects extends Component {
                         <div class="title-container">
                             <h3>IOU Helper / IOU Helper Pro</h3>
                         </div>
-                        <p></p>
+                        <p>IOU Helper is a wrapper for the popular online game IOURPG. IOU Helper allows users to log into multiple kongregate and IOURPG.com accounts on a desktop application. This uses allows the user to run the game with less CPU and GPU usage. It also provides features such as auto-login, screenshotting, timers, auto clicking and macros to get the best possible experience out of the game. The IOU Helper Pro edition used SharpPcap to read packets from the game to collect data and display this on screen to provide the user with optimal game paths. This project was completed using C# in Visual Studio with Winforms.</p>
+                        <p>This program is still actively updated and currently used by over 200 users.</p>
                         <div class="tag-container">
                             <div class="tag winforms">Winforms</div>
                             <div class="tag c-sharp">C#</div>
